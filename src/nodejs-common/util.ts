@@ -42,7 +42,7 @@ const duplexify: DuplexifyConstructor = require('duplexify');
 const requestDefaults: r.CoreOptions = {
   timeout: 60000,
   gzip: true,
-  forever: true,
+  forever: false,
   pool: {
     maxSockets: Infinity,
   },
